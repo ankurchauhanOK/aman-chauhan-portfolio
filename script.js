@@ -412,7 +412,7 @@ const initSkillsCanvas = () => {
         const clusterNames = ['Analytics', 'Optimization', 'Simulation', 'Manufacturing', 'Data Science'];
         const clusterAngles = [0, Math.PI * 0.4, Math.PI * 0.8, Math.PI * 1.2, Math.PI * 1.6];
         
-        ctx.font = '10px "JetBrains Mono", monospace';
+        ctx.font = '10px "Teko", sans-serif';
         ctx.textAlign = 'center';
         
         clusterNames.forEach((name, i) => {

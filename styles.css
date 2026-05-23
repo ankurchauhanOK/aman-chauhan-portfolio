@@ -27,8 +27,8 @@
     --border-medium: rgba(255, 255, 255, 0.1);
     --border-accent: rgba(0, 212, 255, 0.3);
     
-    --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+    --font-primary: 'Hind', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'Teko', sans-serif;
     
     --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-medium: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -247,11 +247,13 @@ body {
 }
 
 .hero-title {
-    font-size: clamp(2.5rem, 5vw, 4.5rem);
-    font-weight: 800;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-family: var(--font-mono);
+    font-size: clamp(2.75rem, 5.5vw, 5rem);
+    font-weight: 600;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
 }
 
 .title-line {
@@ -432,10 +434,12 @@ body {
 }
 
 .section-title {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-family: var(--font-mono);
+    font-size: clamp(2.25rem, 4vw, 3.25rem);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
 }
 
 /* ========================================
@@ -469,9 +473,10 @@ body {
 }
 
 .about-lead {
+    font-family: var(--font-mono);
     font-size: 1.5rem;
     font-weight: 600;
-    line-height: 1.4;
+    line-height: 1.3;
     margin-bottom: 1.5rem;
     color: var(--text-primary);
 }
@@ -676,9 +681,12 @@ body {
 }
 
 .card-title {
-    font-size: 1.125rem;
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .card-desc {
@@ -776,14 +784,17 @@ body {
 }
 
 .project-title {
-    font-size: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 1.375rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
-    line-height: 1.3;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .project-featured .project-title {
-    font-size: 1.5rem;
+    font-size: 1.625rem;
 }
 
 .project-desc {
@@ -1044,9 +1055,12 @@ body {
 }
 
 .timeline-role {
-    font-size: 1.25rem;
+    font-family: var(--font-mono);
+    font-size: 1.375rem;
     font-weight: 600;
     margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .timeline-company {
@@ -1133,8 +1147,11 @@ body {
 }
 
 .cluster-name {
-    font-size: 1rem;
+    font-family: var(--font-mono);
+    font-size: 1.125rem;
     font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .cluster-items {
@@ -1215,9 +1232,12 @@ body {
 }
 
 .method-title {
-    font-size: 1.125rem;
+    font-family: var(--font-mono);
+    font-size: 1.25rem;
     font-weight: 600;
     margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
 }
 
 .method-desc {
@@ -1277,11 +1297,13 @@ body {
 }
 
 .contact-title {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 700;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
+    font-family: var(--font-mono);
+    font-size: clamp(2.25rem, 4vw, 3.25rem);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
     margin-bottom: 1.5rem;
+    text-transform: uppercase;
 }
 
 .contact-desc {

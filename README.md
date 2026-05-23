@@ -16,7 +16,7 @@ A premium, command-center-inspired portfolio for an Operations Research & Supply
 | Styling | Vanilla CSS3 (CSS Variables, Grid, Flexbox) |
 | Animation | Canvas 2D API + CSS Keyframes |
 | Interaction | Vanilla JavaScript (Intersection Observer, RequestAnimationFrame) |
-| Fonts | Inter + JetBrains Mono (Google Fonts) |
+| Fonts | Teko Semi Bold + Hind Regular (Google Fonts) |
 
 ## Project Structure
 
@@ -90,7 +90,7 @@ Drag and drop the project folder into [Netlify Drop](https://app.netlify.com/dro
 ## Credits
 
 - Designed and built for **Aman Chauhan**
-- Fonts: [Google Fonts](https://fonts.google.com) (Inter, JetBrains Mono)
+- Fonts: [Google Fonts](https://fonts.google.com) (Teko, Hind)
 
 ## License
 
