@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Chauhan | Operations Research & Supply Chain Intelligence</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">AC</span>
+                <span class="logo-bracket">]</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#expertise" class="nav-link">Expertise</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#research" class="nav-link">Methodology</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <canvas class="hero-canvas" id="networkCanvas"></canvas>
+        <div class="hero-grid-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-label">
+                <span class="label-line"></span>
+                <span class="label-text">Operations Research Specialist</span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line">Engineering Smarter</span>
+                <span class="title-line">Supply Chains Through</span>
+                <span class="title-line accent">Data & Simulation</span>
+            </h1>
+            <p class="hero-subtitle">
+                I build decision systems that reduce uncertainty across logistics, 
+                manufacturing, and transportation networks using predictive analytics, 
+                stochastic modeling, and operations research.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Let’s Connect</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-target="23">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Productivity Increase</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="12">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Dwell Time Reduction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="15">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">OEE Improvement</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-target="20">0</span>
+                    <span class="stat-suffix">%</span>
+                    <span class="stat-label">Cost Reduction</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">01 / About</span>
+                <h2 class="section-title">Systems Engineer,<br>Not Just a Dashboard Creator</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I engineer decision systems that reduce uncertainty across logistics, 
+                        manufacturing, and transportation networks.
+                    </p>
+                    <p class="about-body">
+                        With a foundation in Industrial Engineering and advanced training in Operations 
+                        Research, I specialize in the intersection of data science and systems thinking. 
+                        My work spans predictive risk modeling for freight networks, stochastic optimization 
+                        for facility location, and discrete-event simulation for transportation systems.
+                    </p>
+                    <p class="about-body">
+                        I don't just analyze data — I design the mathematical frameworks that turn 
+                        complex operational challenges into optimized, resilient systems.
+                    </p>
+                    <div class="about-metrics">
+                        <div class="metric-card">
+                            <span class="metric-value">130+</span>
+                            <span class="metric-desc">Freight Zones Analyzed</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value">4+</span>
+                            <span class="metric-desc">Years of Experience</span>
+                        </div>
+                        <div class="metric-card">
+                            <span class="metric-value">6</span>
+                            <span class="metric-desc">Optimization Tools</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="visual-frame">
+                        <div class="visual-grid">
+                            <div class="grid-cell active"></div>
+                            <div class="grid-cell"></div>
+                            <div class="grid-cell active"></div>
+                            <div class="grid-cell"></div>
+                            <div class="grid-cell active"></div>
+                            <div class="grid-cell active"></div>
+                            <div class="grid-cell"></div>
+                            <div class="grid-cell active"></div>
+                            <div class="grid-cell"></div>
+                        </div>
+                        <div class="visual-pulse"></div>
+                    </div>
+                    <div class="floating-kpi kpi-1">
+                        <span class="kpi-value">23%</span>
+                        <span class="kpi-label">Productivity</span>
+                    </div>
+                    <div class="floating-kpi kpi-2">
+                        <span class="kpi-value">12%</span>
+                        <span class="kpi-label">Dwell Time</span>
+                    </div>
+                    <div class="floating-kpi kpi-3">
+                        <span class="kpi-value">15%</span>
+                        <span class="kpi-label">OEE</span>
+                    </div>
+                    <div class="floating-kpi kpi-4">
+                        <span class="kpi-value">20%</span>
+                        <span class="kpi-label">Cost</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="expertise" id="expertise">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">02 / Expertise</span>
+                <h2 class="section-title">Cross-Domain Capabilities</h2>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M3 3v18h18"/>
+                            <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Supply Chain Analytics</h3>
+                    <p class="card-desc">Forecasting, inventory optimization, freight risk modeling, and demand planning across multi-tier networks.</p>
+                    <ul class="card-tags">
+                        <li>Demand Forecasting</li>
+                        <li>Inventory Optimization</li>
+                        <li>Freight Risk</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="3"/>
+                            <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Operations Research</h3>
+                    <p class="card-desc">Mixed Integer Programming, stochastic systems, optimization modeling, and Branch & Cut algorithms.</p>
+                    <ul class="card-tags">
+                        <li>MIP Modeling</li>
+                        <li>Stochastic Systems</li>
+                        <li>Branch & Cut</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21"/>
+                            <line x1="12" y1="17" x2="12" y2="21"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Simulation Engineering</h3>
+                    <p class="card-desc">Discrete-event simulation with FlexSim, Arena, SUMO for transportation and manufacturing systems.</p>
+                    <ul class="card-tags">
+                        <li>FlexSim</li>
+                        <li>Arena</li>
+                        <li>SUMO</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Industrial Engineering</h3>
+                    <p class="card-desc">Lean manufacturing, Kaizen initiatives, workflow optimization, and facility layout engineering.</p>
+                    <ul class="card-tags">
+                        <li>Lean Manufacturing</li>
+                        <li>Kaizen</li>
+                        <li>Facility Layout</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Predictive Analytics</h3>
+                    <p class="card-desc">Random Forest, regression models, time-series forecasting, and probabilistic risk assessment.</p>
+                    <ul class="card-tags">
+                        <li>Random Forest</li>
+                        <li>Time Series</li>
+                        <li>Risk Modeling</li>
+                    </ul>
+                </div>
+                <div class="expertise-card">
+                    <div class="card-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 class="card-title">Data Engineering</h3>
+                    <p class="card-desc">Python, SQL, Tableau, data pipelines, and analytical infrastructure for enterprise-scale systems.</p>
+                    <ul class="card-tags">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Tableau</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">03 / Featured Projects</span>
+                <h2 class="section-title">Decision Systems in Action</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card project-featured">
+                    <div class="project-visual">
+                        <div class="heatmap-visual">
+                            <div class="heatmap-grid">
+                                <div class="heat-cell" style="--intensity: 0.9"></div>
+                                <div class="heat-cell" style="--intensity: 0.3"></div>
+                                <div class="heat-cell" style="--intensity: 0.7"></div>
+                                <div class="heat-cell" style="--intensity: 0.2"></div>
+                                <div class="heat-cell" style="--intensity: 0.8"></div>
+                                <div class="heat-cell" style="--intensity: 0.4"></div>
+                                <div class="heat-cell" style="--intensity: 0.6"></div>
+                                <div class="heat-cell" style="--intensity: 0.9"></div>
+                                <div class="heat-cell" style="--intensity: 0.5"></div>
+                                <div class="heat-cell" style="--intensity: 0.3"></div>
+                                <div class="heat-cell" style="--intensity: 0.8"></div>
+                                <div class="heat-cell" style="--intensity: 0.7"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Predictive Modeling</span>
+                        <h3 class="project-title">Supply Chain Risk Forecasting</h3>
+                        <p class="project-desc">
+                            Built a Random Forest model to predict freight disruptions across 130+ logistics 
+                            zones, incorporating weather data and seasonal patterns to enable proactive 
+                            mitigation strategies.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="p-metric">
+                                <span class="p-metric-value">130+</span>
+                                <span class="p-metric-label">Freight Zones</span>
+                            </div>
+                            <div class="p-metric">
+                                <span class="p-metric-value">RF</span>
+                                <span class="p-metric-label">Algorithm</span>
+                            </div>
+                            <div class="p-metric">
+                                <span class="p-metric-value">Weather</span>
+                                <span class="p-metric-label">Data Source</span>
+                            </div>
+                        </div>
+                        <ul class="project-tools">
+                            <li>Python</li>
+                            <li>scikit-learn</li>
+                            <li>Pandas</li>
+                            <li>Tableau</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="intersection-visual">
+                            <div class="road-h"></div>
+                            <div class="road-v"></div>
+                            <div class="traffic-light tl-1"></div>
+                            <div class="traffic-light tl-2"></div>
+                            <div class="traffic-light tl-3"></div>
+                            <div class="traffic-light tl-4"></div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Simulation</span>
+                        <h3 class="project-title">Transportation Signal Optimization</h3>
+                        <p class="project-desc">
+                            Developed adaptive traffic control using FlexSim and SUMO, reducing vehicle 
+                            dwell time at congested intersections through real-time signal optimization.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="p-metric">
+                                <span class="p-metric-value">12%</span>
+                                <span class="p-metric-label">Dwell Reduction</span>
+                            </div>
+                            <div class="p-metric">
+                                <span class="p-metric-value">FlexSim</span>
+                                <span class="p-metric-label">Primary Tool</span>
+                            </div>
+                        </div>
+                        <ul class="project-tools">
+                            <li>FlexSim</li>
+                            <li>SUMO</li>
+                            <li>Python</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="warehouse-visual">
+                            <div class="wh-node node-1"></div>
+                            <div class="wh-node node-2"></div>
+                            <div class="wh-node node-3"></div>
+                            <div class="wh-node node-4"></div>
+                            <div class="wh-node node-5"></div>
+                            <svg class="wh-links" viewBox="0 0 200 150">
+                                <line x1="50" y1="40" x2="100" y2="30" class="wh-link"/>
+                                <line x1="100" y1="30" x2="150" y2="50" class="wh-link"/>
+                                <line x1="50" y1="40" x2="60" y2="100" class="wh-link"/>
+                                <line x1="60" y1="100" x2="120" y2="110" class="wh-link"/>
+                                <line x1="150" y1="50" x2="120" y2="110" class="wh-link"/>
+                                <line x1="120" y1="110" x2="160" y2="120" class="wh-link"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Optimization</span>
+                        <h3 class="project-title">Facility Location Optimization</h3>
+                        <p class="project-desc">
+                            Formulated and solved a Mixed Integer Programming model using Branch & Cut 
+                            to optimize warehouse placement, minimizing total logistics cost across 
+                            the distribution network.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="p-metric">
+                                <span class="p-metric-value">MIP</span>
+                                <span class="p-metric-label">Model Type</span>
+                            </div>
+                            <div class="p-metric">
+                                <span class="p-metric-value">B&C</span>
+                                <span class="p-metric-label">Solver</span>
+                            </div>
+                        </div>
+                        <ul class="project-tools">
+                            <li>Python</li>
+                            <li>Pyomo</li>
+                            <li>Gurobi</li>
+                            <li>NetworkX</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="stochastic-visual">
+                            <div class="prob-curve">
+                                <svg viewBox="0 0 200 100" preserveAspectRatio="none">
+                                    <path d="M0,90 Q50,90 80,60 T140,30 T200,20" fill="none" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M0,90 Q50,90 80,60 T140,30 T200,20 L200,100 L0,100 Z" fill="currentColor" opacity="0.1"/>
+                                </svg>
+                            </div>
+                            <div class="prob-nodes">
+                                <div class="p-node"></div>
+                                <div class="p-node"></div>
+                                <div class="p-node"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Stochastic Modeling</span>
+                        <h3 class="project-title">Investment Under Uncertainty</h3>
+                        <p class="project-desc">
+                            Applied stochastic programming with EVPI and VSS analysis to optimize 
+                            machine investment decisions under demand uncertainty, quantifying the 
+                            value of perfect information.
+                        </p>
+                        <div class="project-metrics">
+                            <div class="p-metric">
+                                <span class="p-metric-value">EVPI</span>
+                                <span class="p-metric-label">Analysis</span>
+                            </div>
+                            <div class="p-metric">
+                                <span class="p-metric-value">VSS</span>
+                                <span class="p-metric-label">Stochastic</span>
+                            </div>
+                        </div>
+                        <ul class="project-tools">
+                            <li>Python</li>
+                            <li>Pyomo</li>
+                            <li>Stochastic LP</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">04 / Experience</span>
+                <h2 class="section-title">Career Trajectory</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Operations Research Analyst</h3>
+                            <span class="timeline-company">Maxxis Rubber</span>
+                            <span class="timeline-period">2022 — Present</span>
+                        </div>
+                        <p class="timeline-desc">
+                            Lead optimization initiatives across manufacturing and logistics operations. 
+                            Developed predictive models for supply chain risk, implemented Lean/Kaizen 
+                            programs achieving 23% productivity increase, and designed facility layout 
+                            improvements with 20% cost reduction.
+                        </p>
+                        <div class="timeline-tools">
+                            <span class="t-tool">Python</span>
+                            <span class="t-tool">FlexSim</span>
+                            <span class="t-tool">Tableau</span>
+                            <span class="t-tool">Lean</span>
+                            <span class="t-tool">MIP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Graduate Research Assistant</h3>
+                            <span class="timeline-company">Arizona State University</span>
+                            <span class="timeline-period">2020 — 2022</span>
+                        </div>
+                        <p class="timeline-desc">
+                            Conducted research in stochastic optimization and discrete-event simulation. 
+                            Developed facility location models using Branch & Cut, transportation signal 
+                            optimization using SUMO, and stochastic investment frameworks with EVPI/VSS metrics.
+                        </p>
+                        <div class="timeline-tools">
+                            <span class="t-tool">Pyomo</span>
+                            <span class="t-tool">Gurobi</span>
+                            <span class="t-tool">SUMO</span>
+                            <span class="t-tool">Arena</span>
+                            <span class="t-tool">R</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card">
+                        <div class="timeline-header">
+                            <h3 class="timeline-role">Industrial Engineering Intern</h3>
+                            <span class="timeline-company">Saint Peters University</span>
+                            <span class="timeline-period">2019 — 2020</span>
+                        </div>
+                        <p class="timeline-desc">
+                            Applied industrial engineering principles to workflow optimization and process 
+                            improvement projects. Gained foundational experience in simulation tools and 
+                            statistical process control methodologies.
+                        </p>
+                        <div class="timeline-tools">
+                            <span class="t-tool">AutoCAD</span>
+                            <span class="t-tool">Minitab</span>
+                            <span class="t-tool">Excel VBA</span>
+                            <span class="t-tool">SPC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">05 / Technical Arsenal</span>
+                <h2 class="section-title">Tools & Technologies</h2>
+            </div>
+            <div class="skills-layout">
+                <div class="skills-clusters">
+                    <div class="skill-cluster">
+                        <div class="cluster-header">
+                            <span class="cluster-icon">◈</span>
+                            <h3 class="cluster-name">Analytics</h3>
+                        </div>
+                        <div class="cluster-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">R</span>
+                            <span class="skill-item">SQL</span>
+                            <span class="skill-item">Tableau</span>
+                            <span class="skill-item">Power BI</span>
+                            <span class="skill-item">Excel</span>
+                        </div>
+                    </div>
+                    <div class="skill-cluster">
+                        <div class="cluster-header">
+                            <span class="cluster-icon">◉</span>
+                            <h3 class="cluster-name">Optimization</h3>
+                        </div>
+                        <div class="cluster-items">
+                            <span class="skill-item">Pyomo</span>
+                            <span class="skill-item">Gurobi</span>
+                            <span class="skill-item">CPLEX</span>
+                            <span class="skill-item">PuLP</span>
+                            <span class="skill-item">MIP</span>
+                            <span class="skill-item">Linear Programming</span>
+                        </div>
+                    </div>
+                    <div class="skill-cluster">
+                        <div class="cluster-header">
+                            <span class="cluster-icon">◎</span>
+                            <h3 class="cluster-name">Simulation</h3>
+                        </div>
+                        <div class="cluster-items">
+                            <span class="skill-item">FlexSim</span>
+                            <span class="skill-item">Arena</span>
+                            <span class="skill-item">SUMO</span>
+                            <span class="skill-item">AnyLogic</span>
+                            <span class="skill-item">Discrete-Event</span>
+                        </div>
+                    </div>
+                    <div class="skill-cluster">
+                        <div class="cluster-header">
+                            <span class="cluster-icon">◆</span>
+                            <h3 class="cluster-name">Manufacturing</h3>
+                        </div>
+                        <div class="cluster-items">
+                            <span class="skill-item">Lean</span>
+                            <span class="skill-item">Six Sigma</span>
+                            <span class="skill-item">Kaizen</span>
+                            <span class="skill-item">SPC</span>
+                            <span class="skill-item">OEE</span>
+                            <span class="skill-item">AutoCAD</span>
+                        </div>
+                    </div>
+                    <div class="skill-cluster">
+                        <div class="cluster-header">
+                            <span class="cluster-icon">◇</span>
+                            <h3 class="cluster-name">Data Science</h3>
+                        </div>
+                        <div class="cluster-items">
+                            <span class="skill-item">scikit-learn</span>
+                            <span class="skill-item">Pandas</span>
+                            <span class="skill-item">NumPy</span>
+                            <span class="skill-item">TensorFlow</span>
+                            <span class="skill-item">Statsmodels</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-visualization">
+                    <canvas id="skillsCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research / Methodology Section -->
+    <section class="research" id="research">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">06 / Methodology</span>
+                <h2 class="section-title">Research Framework</h2>
+            </div>
+            <div class="methodology-grid">
+                <div class="method-card">
+                    <div class="method-number">01</div>
+                    <div class="method-content">
+                        <h3 class="method-title">Problem Formulation</h3>
+                        <p class="method-desc">
+                            Define decision variables, objective functions, and constraints. 
+                            Map the operational landscape and identify uncertainty sources.
+                        </p>
+                        <div class="method-flow">
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Define</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Model</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Validate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">02</div>
+                    <div class="method-content">
+                        <h3 class="method-title">Stochastic Modeling</h3>
+                        <p class="method-desc">
+                            Quantify uncertainty through probability distributions. Apply EVPI 
+                            and VSS analysis to measure the value of information in decision-making.
+                        </p>
+                        <div class="method-flow">
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Scenario</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Probability</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Optimize</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">03</div>
+                    <div class="method-content">
+                        <h3 class="method-title">Simulation & Validation</h3>
+                        <p class="method-desc">
+                            Build discrete-event simulation models to test solutions under 
+                            realistic conditions before deployment in live operations.
+                        </p>
+                        <div class="method-flow">
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Simulate</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Test</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Deploy</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="method-card">
+                    <div class="method-number">04</div>
+                    <div class="method-content">
+                        <h3 class="method-title">Optimization Pipeline</h3>
+                        <p class="method-desc">
+                            Solve MIP models using Branch & Cut, implement heuristics for 
+                            large-scale problems, and iterate based on sensitivity analysis.
+                        </p>
+                        <div class="method-flow">
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Formulate</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Solve</span>
+                            </div>
+                            <div class="flow-arrow">→</div>
+                            <div class="flow-step">
+                                <span class="flow-dot"></span>
+                                <span class="flow-label">Iterate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-container">
+            <div class="contact-content">
+                <span class="section-tag">07 / Contact</span>
+                <h2 class="contact-title">Let’s Build Resilient Systems</h2>
+                <p class="contact-desc">
+                    Open to Operations Research, Supply Chain Analytics, and Data Science 
+                    opportunities where complex systems meet intelligent decision-making.
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:aman.chauhan@email.com" class="contact-link">
+                        <span class="link-label">Email</span>
+                        <span class="link-value">aman.chauhan@email.com</span>
+                    </a>
+                    <a href="https://linkedin.com/in/aman-chauhan" target="_blank" class="contact-link">
+                        <span class="link-label">LinkedIn</span>
+                        <span class="link-value">linkedin.com/in/aman-chauhan</span>
+                    </a>
+                    <a href="#" class="contact-link">
+                        <span class="link-label">Resume</span>
+                        <span class="link-value">Download PDF</span>
+                    </a>
+                </div>
+            </div>
+            <div class="contact-terminal">
+                <div class="terminal-header">
+                    <div class="terminal-dot"></div>
+                    <div class="terminal-dot"></div>
+                    <div class="terminal-dot"></div>
+                    <span class="terminal-title">system_status</span>
+                </div>
+                <div class="terminal-body">
+                    <div class="terminal-line">
+                        <span class="term-prompt">$</span>
+                        <span class="term-cmd">./connect --target="aman.chauhan"</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="term-output">Establishing secure connection...</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="term-output">Status: <span class="term-success">ONLINE</span></span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="term-output">Availability: Open to opportunities</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="term-output">Specializations: OR, Supply Chain, Analytics</span>
+                    </div>
+                    <div class="terminal-line">
+                        <span class="term-prompt">$</span>
+                        <span class="term-cursor">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="logo-bracket">[</span>
+                <span class="logo-text">AC</span>
+                <span class="logo-bracket">]</span>
+            </div>
+            <p class="footer-text">Operations Research & Supply Chain Intelligence</p>
+            <p class="footer-copy">© 2025 Aman Chauhan. Built with precision.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
